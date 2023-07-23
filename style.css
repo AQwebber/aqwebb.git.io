@@ -1,0 +1,116 @@
+html {
+    font-size: 15pt;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background: aquamarine;
+    font-family: times new roman;
+}
+
+.password {
+  display: inline-block;
+  position: relative;
+  border: 1px solid black;
+}
+
+.password input {
+  padding: 10px 5px;
+  outline:none;
+  border:0;
+}
+
+.pass-icon {
+  position: absolute;
+  right:200px;
+  width:30px;
+}
+
+img {
+  mix-blend-mode: multiply;
+  left:320px;
+  top:290px;
+}
+
+#password {
+  outline:none;
+  height:50px;
+  font-size:25px;
+  width:160px;
+  border-top:1px solid aquamarine;
+  border-left:none;
+  border-right:none;
+  color:aqua;
+  background: transparent;
+  border-bottom-color: aquamarine;
+  border-radius:10px;
+  font-family:times new roman;
+}
+
+#email {
+  outline:none;
+  height:50px;
+  font-size:25px;
+  width:200px;
+  border-top:1px solid aquamarine;
+  border-left:none;
+  border-right: none;
+  border-radius:10px;
+  border-bottom-color: aquamarine;
+  background: transparent;
+  color:aqua;
+  font-family: times new roman;
+}
+
+#div3 {
+  width:345px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#div2 {
+  height:70px;
+  width:345px;
+  background:teal;
+  border:2px solid black;
+  border-radius:10px;
+}
+
+#div1 {
+  border:2px solid black;
+  height:360px;
+  width:345px;
+  background: teal;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  position:right;
+}
+
+button {
+  height:50px;
+  width:343px;
+  cursor:pointer;
+  background:none;
+  border-top: 1px solid aquamarine;
+  border-color: aquamarine;
+  font-size: 25px;
+  font-family: times new roman;
+  border-radius:10px;
+  color: aquamarine ;
+}
+
+label {
+  color: aquamarine;
+  font-weight: 50px;
+}
+
+h2 {
+  background: none ;
+  height:30px;
+  border-radius:10px;
+  
+}
